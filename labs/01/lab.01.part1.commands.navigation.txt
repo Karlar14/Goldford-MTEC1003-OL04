@@ -64,7 +64,7 @@ Copy and paste the output below.
 5.  What key do I press to go to the previous command?
 ----------
 
-
+The up arrow button
 
 
 
@@ -72,7 +72,7 @@ Copy and paste the output below.
 ==========
 6.  Name two flags that we used in this exercise.
 ----------
-
+The two flags we used is -a and -l
 
 
 
@@ -82,7 +82,7 @@ Copy and paste the output below.
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
+The ls 
 
 
 
@@ -91,7 +91,7 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+Documents 
 
 
 
@@ -104,6 +104,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+-bash: foo: command not found
 
 
 
@@ -116,8 +117,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+foo
 
 
 
