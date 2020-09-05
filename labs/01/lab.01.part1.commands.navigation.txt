@@ -15,6 +15,25 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Karla.ramirez1@mail.citytech.cuny.edu Creative Cloud Files
+Library
+Movies
+Music
+NetBeansProjects
+Pictures
+Public
+drills.py
+eclipse-workspace
+first-app-engine-project
+get-pip.py
+google-cloud-sdk
+mysite
+python
 
 
 
@@ -28,6 +47,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+total 3704
+drwx------@   6 Karla  staff      192 Sep  3 13:10 Applications
 
 
 
@@ -41,7 +62,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.					helloworld.py
+..					hi.py
 
 
 
@@ -54,7 +76,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 
@@ -130,7 +152,10 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
+the command = ls
+flag = -a 
+argument = is Desktop
+prompt = is the $ 
 
 
 
@@ -146,7 +171,7 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
-
+mkdir 
 
 
 
@@ -156,7 +181,7 @@ Follow the instructions line-by-line.
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
 
-
+mkdir 
 
 
 
@@ -173,7 +198,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/gwcstudent/mtec1002
 
 
 
@@ -187,7 +212,29 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Karla.ramirez1@mail.citytech.cuny.edu Creative Cloud Files
+Library
+Movies
+Music
+NetBeansProjects
+Pictures
+Public
+Tetris
+animals
+djangogirls
+drills.py
+eclipse-workspace
+first-app-engine-project
+get-pip.py
+google-cloud-sdk
+mtec1002
+mysite
+python
 
 
 
@@ -201,7 +248,31 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Karla.ramirez1@mail.citytech.cuny.edu Creative Cloud Files
+Library
+Movies
+Music
+NetBeansProjects
+Pictures
+Public
+Tetris
+animals
+djangogirls
+drills.py
+eclipse-workspace
+first-app-engine-project
+firstProject
+food
+get-pip.py
+google-cloud-sdk
+mtec1002
+mysite
+python
 
 
 
@@ -214,7 +285,29 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Karla.ramirez1@mail.citytech.cuny.edu Creative Cloud Files
+Library
+Movies
+Music
+NetBeansProjects
+Pictures
+Public
+animals
+djangogirls
+drills.py
+eclipse-workspace
+first-app-engine-project
+foo
+food
+get-pip.py
+google-cloud-sdk
+mtec1002
+python
 
 
 
@@ -229,7 +322,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/gwcstudent/foo/bar/baz/qux
 
 
 
@@ -244,7 +337,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/gwcstudent/foo/bar
 
 
 
@@ -256,7 +349,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/gwcstudent/foo/bar/baz/qux
 
 
 
@@ -271,7 +364,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/gwcstudent
 
 
 
@@ -285,7 +378,9 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
+total 3704
+drwx------@   6 Karla  staff      192 Sep  3 13:10 Applications
+drwxrwxr-x@   4 Karla  staff      128 Sep  3 17:24 Creative Cloud Files
 
 
 
@@ -300,7 +395,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/gwcstudent
 
 
 
@@ -314,7 +409,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 
 
@@ -328,7 +423,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+-bash: cd: /unknown_folder: No such file or directory
 
 
 
@@ -342,7 +437,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/gwcstudent/mtec1002
+ 
 
 
 
@@ -355,6 +451,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
+Karla.cable.rcn.com
 
 
 
@@ -365,7 +462,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+pwd 
 
 
 
@@ -395,7 +492,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 
@@ -407,7 +504,7 @@ Write the command you used to create the directory below:
 ----------
 
 
-
+mkdir aardvark
 
 
 
@@ -418,7 +515,7 @@ What is the modified date of the aardvark directory?
 ----------
 
 
-
+64 Sep  4 23:41
 
 
 
@@ -432,7 +529,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 
 
@@ -443,7 +540,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 
 
@@ -454,7 +551,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd ../..
 
 
 
@@ -463,7 +560,7 @@ What command did you use?
 36. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 
 
@@ -473,7 +570,7 @@ What command did you use?
 ----------
 
 
-
+pwd
 
 
 
@@ -481,7 +578,7 @@ What command did you use?
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
+-l
 
 
 
@@ -490,7 +587,7 @@ What command did you use?
 39. What's the shortcut for home directory?
 ----------
 
-
+cd -
 
 
 
@@ -499,7 +596,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+A pathname is a file name.
 
 
 
@@ -509,10 +606,12 @@ What command did you use?
 ----------
 
 
-
+directory is a file system that is catalog with other files 
 
 
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+cd ~
