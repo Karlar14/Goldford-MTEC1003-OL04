@@ -180,8 +180,7 @@ mkdir
 ==========
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
-
-mkdir 
+cd mtec1002
 
 
 
